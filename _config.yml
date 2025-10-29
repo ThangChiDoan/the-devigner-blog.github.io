@@ -1,0 +1,35 @@
+title: The Devigner Blog
+email: hello@thedevignerblog.com
+description: >-
+  Where code and design come together. We share practical tips, tutorials, 
+  and inspiration for people who love both.
+baseurl: ""
+url: "https://thangchidoan.github.io/the-devigner-blog.github.io"
+twitter_username: thedevignerblog
+github_username: ThangChiDoan
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
