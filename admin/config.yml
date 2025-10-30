@@ -1,12 +1,12 @@
-backend:
-  name: git-gateway
-  branch: main
+# backend:
+#   name: git-gateway
+#   branch: main
 
 # Alternative: Use GitHub backend for direct integration
-# backend:
-#   name: github
-#   repo: ThangChiDoan/the-devigner-blog.github.io
-#   branch: main
+backend:
+  name: github
+  repo: thangchidoan/the-devigner-blog.github.io
+  branch: master
 
 # Uncomment for local development
 # local_backend: true

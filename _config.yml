@@ -1,12 +1,12 @@
 title: The Devigner Blog
-email: hello@thedevignerblog.com
+email: thangchi.doan@gmail.com
 description: >-
   Where code and design come together. We share practical tips, tutorials, 
   and inspiration for people who love both.
-baseurl: ""
-url: "https://thangchidoan.github.io/the-devigner-blog.github.io"
+baseurl: "/the-devigner-blog"
+url: "https://thangchidoan.github.io"
 twitter_username: thedevignerblog
-github_username: ThangChiDoan
+github_username: thangchidoan
 
 # Build settings
 markdown: kramdown
