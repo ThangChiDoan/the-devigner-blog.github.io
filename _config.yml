@@ -1,0 +1,44 @@
+title: The Devigner Blog
+email: thangchi.doan@gmail.com
+description: >-
+  Where code and design come together. We share practical tips, tutorials,
+  and inspiration for people who love both.
+baseurl: ""
+url: "https://the-devigner.blog"
+twitter_username: thedevignerblog
+github_username: thangchidoan
+
+theme: minima
+
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+timezone: Asia/Ho_Chi_Minh
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /blog/:year/:month/:day/:slug/
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+feed:
+  path: feed.xml
+
+lang: en
